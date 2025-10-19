@@ -1,0 +1,10 @@
+{
+    "defaultProject": "Nya Enable Turtle",
+    "mods_path": null,
+    "projects": {
+        "Nya Enable Turtle": {
+            "path": "Nya Enable Turtle",
+            "framework": "ContentPatcher"
+        }
+    }
+}
