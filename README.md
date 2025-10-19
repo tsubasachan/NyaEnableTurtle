@@ -62,7 +62,3 @@ sdvpy run
 
 ---
 
-## ❤️ Credits
-
-Developed by **Nya**  
-Made with love and feline curiosity 🐱💕
