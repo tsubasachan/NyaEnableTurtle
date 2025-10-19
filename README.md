@@ -59,6 +59,3 @@ To **build and run** the mod directly, simply run:
 ```bash
 sdvpy run
 ```
-
----
-
