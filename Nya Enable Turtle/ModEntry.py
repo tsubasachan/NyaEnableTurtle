@@ -5,31 +5,6 @@ from StardewValley import Manifest, Helper, ContentPatcher, Include, EditData
 import Events as Events_list
 from StardewValley.Data.SVModels.Events import Events
 
-"""class Events_language(Events):
-    def __init__(self, mod:Helper, Events_List:list[EventsModel]):
-        super().__init__(mod, Events_List)
-    
-    def contents(self):
-        self.mod.content.registryContentData(
-            Include(
-                FromFile=self.__class__.__name__
-            )
-        )
-
-        
-
-        for event in self.Events_List:
-            self.mod.content.registryContentData(
-                EditData(
-                    LogName=f"Add {event.location}",
-                    Target=f"Data/Events/{event.location}",
-                    TargetLocale=self.language,
-                    Entries={
-                        event.key.getJson():event.value.getJson()
-                    }
-                ),
-                contentFile=self.__class__.__name__
-            )"""
 
 
 class ModEntry(Helper):
