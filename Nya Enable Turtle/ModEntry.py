@@ -12,7 +12,6 @@ class ModEntry(Helper):
         super().__init__(
             manifest=manifest, modFramework=ContentPatcher(manifest=manifest)
         )
-        self.autoTranslate=True
         self.contents()
     
     def contents(self):

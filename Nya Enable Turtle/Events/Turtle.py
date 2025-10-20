@@ -9,6 +9,12 @@ class TranslateDialog:
             "Dialogue_2": "I found it at the entrance to your farm! I think she's lost..$s",
             "Dialogue_3": "Hey, it seems to like this place! Hey, um.... Don't you think this farm could use a good turtle?",
             "Dialogue_4": "Well,  %pet... Be a good turtle now... ok?"
+        },
+        "pt": {
+            "Dialogue_1": "Olá @!$h#$b#Você vê essa tartaruga aqui?",
+            "Dialogue_2": "Eu a encontrei na entrada da sua fazenda! Acho que ela está perdida..$s",
+            "Dialogue_3": "Ei, parece que ele gosta deste lugar! Ei, hum... Você não acha que esta fazenda poderia ter uma boa tartaruga?",
+            "Dialogue_4": "Bem,  %pet... Seja uma boa tartaruga agora... ok?"
         }
     }
 
