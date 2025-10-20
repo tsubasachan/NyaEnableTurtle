@@ -5,7 +5,7 @@ from StardewValley import Manifest, Helper, ContentPatcher, Include, EditData
 import Events as Events_list
 from StardewValley.Data.SVModels.Events import Events
 
-class Events_language(Events):
+"""class Events_language(Events):
     def __init__(self, mod:Helper, Events_List:list[EventsModel]):
         super().__init__(mod, Events_List)
     
@@ -29,7 +29,7 @@ class Events_language(Events):
                     }
                 ),
                 contentFile=self.__class__.__name__
-            )
+            )"""
 
 
 class ModEntry(Helper):
@@ -77,7 +77,6 @@ class ModEntry(Helper):
         Events(
             mod=self,
             Events_List=[
-                Events_list.Turtle(self, "default"),
-                Events_list.Turtle(self, "pt-BR")
+                Events_list.Turtle(self)
             ]
         )
