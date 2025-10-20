@@ -19,7 +19,7 @@ pip install stardewmodpy
 
 ## 📦 Project Structure
 
-After downloading the project, create two folders in the root directory:
+After downloading the project, create two folders in the root directory (frameworks and dependences) and place the **Content Patcher** mod in the `frameworks` folder.:
 
 ```
 NyaEnableTurtle/
